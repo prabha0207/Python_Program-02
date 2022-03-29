@@ -1,0 +1,11 @@
+num1=int(input())
+value=num1
+sum=0
+while(num1>0):
+    rev=num1%10
+    sum=sum*10+rev
+    num1=num1//10
+if(value==sum):
+    print("yes")
+else:
+    print("no")

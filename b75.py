@@ -1,0 +1,10 @@
+a=list(input())
+b=len(a)
+if(b%2==1):
+    c=b//2
+    a[c]='*'
+    print("".join(a))
+elif(b%2==0):
+    c=b//2
+    a[c]=a[c-1]='*'
+    print("".join(a))
